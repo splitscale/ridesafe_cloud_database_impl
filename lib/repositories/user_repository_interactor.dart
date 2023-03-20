@@ -1,7 +1,7 @@
 import 'package:ridesafe_core/repositories/user_repository.dart';
 import 'package:ridesafe_core/user/user.dart';
 
-class UserRepositoryInteractor implements UserRepository {
+class UserRepositoryServerInteractor implements UserRepository {
   @override
   User create(String username) {
     // TODO: implement create
