@@ -10,8 +10,8 @@ environment:
 #   path: ^1.8.0
 
 dependencies:
-  ridesafe_core:
-    path: D:/dev/ridesafe/ridesafe_core
+   ridesafe_core:
+    git: https://github.com/splitscale/ridesafe_core.git
 
 dev_dependencies:
   lints: ^2.0.0
